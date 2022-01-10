@@ -5,6 +5,7 @@ using UnityEngine.Windows.Speech;
 
 public class AudioRecognize : MonoBehaviour
 {
+    public Animator girl;
     // 语音识别关键字
     public string[] keywords = {"a", "e", "i", "o", "u","早上好","晚安"};
     // 识别可信度
@@ -33,7 +34,7 @@ public class AudioRecognize : MonoBehaviour
     /// <param name="args"></param>
     private void M_PhraseRecognizer_OnPhraseRecognized(PhraseRecognizedEventArgs args)
     {
-        SpeechRecognition();
+        SpeechRecognition(args.text);
         print(args.text);
     }
     private void OnDestroy()
@@ -55,8 +56,31 @@ public class AudioRecognize : MonoBehaviour
     /// <summary>
     /// 识别到语音的操作
     /// </summary>
-    void SpeechRecognition()
+    void SpeechRecognition(string msg)
     {
-       print("Get message");
+        switch (msg)
+        {
+            case "a":
+                girl.Play("a");
+                break;
+            case "e":
+                girl.Play("e");
+                break;
+            case "i":
+                girl.Play("i");
+                break;
+            case "o":
+                girl.Play("o");
+                break;
+            case "u":
+                girl.Play("u");
+                break;
+            case "早上好":
+                girl.Play("morning");
+                break;
+            case "晚安":
+                girl.Play("evening");
+                break;
+        }
     }  
 }
