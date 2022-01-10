@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Windows.Speech;
 
 public class AudioRecognize : MonoBehaviour
 {
     public Animator girl;
+
+    public Text wordText;
+    // public Text girlText;
     // 语音识别关键字
     public string[] keywords = {"a", "e", "i", "o", "u","早上好","晚安"};
     // 识别可信度
@@ -61,25 +65,32 @@ public class AudioRecognize : MonoBehaviour
         switch (msg)
         {
             case "a":
-                girl.Play("a");
+                girl.CrossFade("a", 0.02f);
+                wordText.text = "a";
                 break;
             case "e":
-                girl.Play("e");
+                girl.CrossFade("e", 0.02f);
+                wordText.text = "e";
                 break;
             case "i":
-                girl.Play("i");
+                girl.CrossFade("i", 0.02f);
+                wordText.text = "i";
                 break;
             case "o":
-                girl.Play("o");
+                girl.CrossFade("o", 0.02f);
+                wordText.text = "o";
                 break;
             case "u":
-                girl.Play("u");
+                girl.CrossFade("u", 0.02f);
+                wordText.text = "u";
                 break;
             case "早上好":
-                girl.Play("morning");
+                girl.CrossFade("morning", 0.02f);
+                wordText.text = "早上好";
                 break;
             case "晚安":
-                girl.Play("evening");
+                girl.CrossFade("evening", 0.02f);
+                wordText.text = "晚安";
                 break;
         }
     }  

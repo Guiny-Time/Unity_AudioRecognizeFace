@@ -6,7 +6,6 @@ Shader "非真实感渲染/卡通渲染"
     {
         _Color ("主色调", Color) = (1, 1, 1, 1)
         _MainTex ("贴图", 2D) = "white" {}
-        _Ramp ("渐变纹理", 2D) = "white" {}
 
         _Specular ("高光颜色", Color) = (1, 1, 1, 1)
         _SpecularScale ("高光程度", Range(0, 0.1)) = 0.01
@@ -32,8 +31,6 @@ Shader "非真实感渲染/卡通渲染"
             fixed4 _Color;
             sampler2D _MainTex;
             float4 _MainTex_ST;
-            sampler2D _Ramp;
-            float4 _Ramp_ST;
             fixed4 _Specular;
             fixed _SpecularScale;
 
@@ -83,7 +80,7 @@ Shader "非真实感渲染/卡通渲染"
                 fixed diff = dot(worldNormal, worldLightDir);
                 diff = (diff * 0.5 + 0.5) * atten;
                 // 漫反射受渐变纹理影响
-                fixed3 diffuse = _LightColor0.rgb * albedo * tex2D(_Ramp, float2(diff, diff)).rgb;
+                fixed3 diffuse = _LightColor0.rgb * albedo;
 
                 // half-lambert高光
                 // 计算高光方向
