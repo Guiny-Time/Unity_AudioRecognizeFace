@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8f637a48-1ff1-2e73-8db6-2414bf741474}</ProjectGuid>
+    <ProjectGuid>{3258c5fe-5832-2fa4-3843-52d84d8e71b7}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -41,7 +41,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\audioRecognize.cs" />
+     <Compile Include="Assets\Scripts\AudioRecognize.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -274,13 +274,13 @@
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Analytics.StandardEvents">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Analytics.Editor">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Editor.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Analytics.Tracker">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Tracker.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Tracker.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -637,85 +637,85 @@
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Purchasing.Common">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Tilemap.Editor">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.Purchasing">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.Purchasing.SecurityStub">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.Advertisements">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Sprite.Editor">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Analytics">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/Analytics.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/Analytics.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SpatialTracking">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Analytics.DataPrivacy">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.Purchasing.SecurityCore">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.Purchasing.Codeless">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.Purchasing.Stores">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.Monetization">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.Purchasing">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.SpatialTracking">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.Advertisements.Editor">
-     <HintPath>C:/Users/10849/Desktop/LenovoWrittenTest/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
+     <HintPath>S:/gitHub/Unity_AudioRecognizeFace/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
