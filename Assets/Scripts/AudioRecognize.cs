@@ -57,6 +57,6 @@ public class AudioRecognize : MonoBehaviour
     /// </summary>
     void SpeechRecognition()
     {
-       
+       print("Get message");
     }  
 }
