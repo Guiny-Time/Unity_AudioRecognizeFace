@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea.LenovoWrittenTest.iml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\10849\Desktop\LenovoWrittenTest\.idea\.idea.LenovoWrittenTest\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
